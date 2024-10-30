@@ -1,6 +1,7 @@
 .film{
-    border: 1px black solid;
-    margin: 5xp;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 5px;
 }
 .grafika{
     float: left;
@@ -23,12 +24,40 @@ img{
 }
 .typ{
     float: left;
-    width: 60px;
+    width: 80px;
+    margin-right: 5px;
 }
 .godziny{
     float: left;
     width: 60px;
 }
+.godzina{
+    background-color: green;
+    
+    border-radius: 5px;
+    text-align: center;
+}
+.godzina:hover{
+    background-color: lightgreen;    
+    border-radius: 5px;
+    text-align: center;
+}
 .pusty{
     clear: both;
+}
+.Premiera{
+    background-color: lightcoral;
+    border-radius: 5px;
+    text-align: center;    
+}
+.Dorośli{
+    background-color: purple;
+    border-radius: 5px;
+    text-align: center;        
+}
+.Rodzinny{
+    background-color: rgb(128, 162, 240);
+    border: 1px rgb(128, 162, 240) solid;
+    border-radius: 5px;
+    text-align: center;        
 }
