@@ -1,0 +1,34 @@
+.film{
+    border: 1px black solid;
+    margin: 5xp;
+}
+.grafika{
+    float: left;
+    padding: 10px;
+}
+img{
+    height: 100px;
+}
+.tytulBlok
+{
+    float: left;
+    width: 300px;
+}
+.tytul{
+    font-size: larger;
+    font-weight: bold;
+}
+.opis{
+    font-style: italic;
+}
+.typ{
+    float: left;
+    width: 60px;
+}
+.godziny{
+    float: left;
+    width: 60px;
+}
+.pusty{
+    clear: both;
+}
